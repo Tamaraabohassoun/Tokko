@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+/* Geist Font Configuration */
+
+.geist-font {
+    font-family: "Geist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;  /* حط رقم محدد بدل <weight> */
+    font-style: normal;
+  }
+
+@theme {
+  /* الألوان الأساسية */
+  --color-white: #ffffff;
+  --color-white-a6: #ffffffa6;
+  --color-black: #000000;
+  --color-dark: #1a1a1a;
+  --color-dark-a6: #1a1a1aa6;
+  --color-dark-0d: #1a1a1a0d;
+  --color-dark-1a: #1a1a1a1a;
+  --color-dark-26: #1a1a1a26;
+  
+  /* ألوان الخلفيات */
+  --color-bg-primary: #ffffff;
+  --color-bg-secondary: #fafafa;
+  --color-bg-purple-light: #d6aef2;
+  --color-bg-orange: #f56628;
+  --color-bg-pink: #ed2791;
+  --color-bg-red: #f5284b;
+  --color-bg-blue: #2979fa;
+  --color-bg-purple: #b824d9;
+  --color-bg-dark: #1a1a1a;
+  --color-bg-overlay-5: #1a1a1a0d;
+  --color-bg-overlay-10: #1a1a1a1a;
+  --color-bg-overlay-15: #1a1a1a26;
+
+  /* ألوان النصوص */
+  --color-text-primary: #1a1a1a;
+  --color-text-secondary: #1a1a1aa6;
+  --color-text-white: #ffffff;
+  --color-text-white-secondary: #ffffffa6;
+  --color-text-black: #000000;
+
+  /* ألوان الحدود */
+  --color-border-white: #ffffff;
+  --color-border-light: #1a1a1a1a;
+
+  /* أحجام الخطوط */
+  --font-size-base: 16px;
+  --font-size-lg: 18px;
+
+  /* أوزان الخطوط */
+  --font-weight-medium: 500;
+
+  /* ارتفاع الأسطر */
+  --line-height-base: 19px;
+  --line-height-lg: 22px;
+}
