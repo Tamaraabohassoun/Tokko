@@ -7,7 +7,7 @@ const Layout = ({children}) => {
     <div>
         <Header/>
 
-        <main>
+        <main className='pt-20'>
         {
             children
         }
