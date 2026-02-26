@@ -104,6 +104,9 @@
   --line-height-lg: 22px;
 }
 
+.shapes-on-the-side-shadow{
+  box-shadow:0 12px 20px 0 var(--color-bg-overlay-10);
+}
 html{
   font-family:"Geist", sans-serif ;
   background-color: var(--color-bg-primary);
