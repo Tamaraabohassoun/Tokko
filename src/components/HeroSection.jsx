@@ -28,7 +28,7 @@ const HeroSection = () => {
     <ShapesOnTheSide img={bookMarker} number={+730}/>
 
     <div className='flex gap-1'>
-      <div className=''><img  src={person1} alt="person"/> </div>
+      <div className=' shadow-[0 12px 20px 0 var(--black-opacity--10)] bg-white rounded-[32px]'><img className='rounded-[28px]'  src={person1} alt="person"/> </div>
       <div className=''><img src={person2} alt="person"/> </div>
       <div className=''><img src={person3} alt="person"/> </div>
       <div className=''><img src={person4} alt="person"/> </div>
